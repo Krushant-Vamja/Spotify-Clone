@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    width: 100vw;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #000;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1DB954;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  
+  .sidebar .btn {
+    color: #000;
+    background-color: #1DB954;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .extra-section .btn {
+    width: 100%;
+    background-color: #383838;
+    color: #fff;
+  }
+  
+  /* Main Content */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 250px);
+
+    padding: 10px;
+    background-color: #000;
+    z-index: 10;
+    margin-left: 250px;
+  }
+  .maindata{
+    position: relative;
+    margin-left: 260px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    ;
+  }
+  
+  .auth-buttons .btn {
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  /* Card Sections */
+  .featured-section, .editors-picks {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-top: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    background-color: #282828;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .card span {
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  
+  
